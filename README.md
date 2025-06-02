@@ -14,9 +14,8 @@
 </head>
 
 <body>
-  <script src="script.js"></script>
 
-  <h1 class="title">Best Vegetables</h1>
+  <h1>Best Vegetables</h1>
   <h4>By Carson Rodgers</h4>
   
   <hr>
@@ -83,26 +82,6 @@
   <hr>
   <br>
 
-  <table id="sponsorTable">
-      <tr>
-        <th>**AD**</th>
-      </tr>
-      <tr class="ad">
-          <td>Have you ever wondered what the top 10 best fruits are? Then click on the photo to the right and find out!</td>
-          <td><a href="https://azhnzqbfxd-2818096930-a.codehs.me/index.html"><img id="sponsorPhoto" src="https://codehs.com/uploads/e9a74486d2a808b3fd8d486967b42259"/></a></td>
-      </tr>
-      <tr class="ad">
-          <td id="sponsor">(Sponsored by Kevin Kolbig)</td>
-          <td><cite>Photo by Hồng Xuân Viên: <a class="citeOne" href="https://www.pexels.com/photo/toddler-in-yellow-top-and-hat-holding-fruit-2869318/">link</a></cite></td>
-      </tr>
-  </table>
-  
-  <br>
-  <br>
-  <br>
-  <hr>
-  <br>
-
   <h2>Explanation</h2>
   <br>
   <table>
@@ -142,111 +121,4 @@
   
   <br>
 </body>
-<style>
-    html {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.808);
-  font-family: "Kanit", serif;
-  font-weight: 400;
-  font-style: normal;
-  color:#FFFFFF;
-  text-align: center;
-}
-
-.title{
-  background:fixed;
-  background-color: rgb(138, 138, 138);
-  background-size:400%;
-  border: #FFFFFF thick dotted;
-  padding:5%;
-  margin:0px;
-  border-radius: 3%;
-  font-family: "Sigmar", serif;
-  font-weight: 400;
-  font-style: normal;
-  color:#FFFFFF;
-  font-size: 250%;
-}
-
-.citeOne{
-  text-decoration: none;
-  /*I found out how to un-underline something online*/
-  background-color: #8d8d8d;
-  border: rgb(0, 0, 0) thick ridge;
-  color:rgba(0, 0, 0, 0.808);
-  padding:0.5%;
-  margin:0.5%;
-}
-
-img{
-  width:90%;
-  margin:2%;
-  padding:0%;
-  border: rgb(255, 255, 255) thick solid;
-}
-
-.honorableMention{
-  font-weight: bold;
-  color:lightgray;
-}
-
-.topFive{
-  font-weight: bold;
-}
-
-.lists{
-  display: inline-block;
-}
-
-#hmTitle{
-  color:lightgray;
-}
-
-h2{
-  margin-bottom: 0%;
-}
-
-table{
-  display: inline-block;
-  border-collapse: collapse;
-  width: 50%;
-}
-
-td, th{
-  width:2%;
-  border:#FFFFFF medium solid;
-}
-
-th{
-  background: #444444;
-}
-
-td{
-  background: #5a5a5a;
-}
-
-#vegDef{
-  background:#FFFFFF;
-  color:rgba(0, 0, 0, 0.808);
-  text-decoration: none;
-  border: #FFFFFF thin solid;
-  border-radius: 22%;
-}
-
-#sponsorPhoto{
-  width: 180px;
-}
-
-#sponsorTable{
-  width: 50%;
-}
-
-.ad{
-    border: rgba(255, 255, 255, 0.808) thin solid;
-}
-  </style>
-
-
-
 </html>
