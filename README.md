@@ -142,11 +142,8 @@
   
   <br>
 </body>
-
-
-</html>
-
-html {
+<style>
+    html {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.808);
@@ -248,4 +245,8 @@ td{
 .ad{
     border: rgba(255, 255, 255, 0.808) thin solid;
 }
+  </style>
 
+
+
+</html>
